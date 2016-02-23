@@ -1,9 +1,0 @@
-import pickle
-vault='/Users/maningmn1987/Documents/Study_material/CSE291/VAULT'
-with open(vault+'/RootCred.pkl','wb') as pickle_file:
-    pickle.dump({'ID':'nima','key_id':'AKIAI7YFEF3ZIRV6PHCA','secret_key':'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',\
-                 'password':'12345',\
-                 'ssh_key_name':'AWS_key',\
-                 'ssh_key_pair_file':'ssh_key_pair_file',\
-                 'security_groups':'nima'}
-                ,pickle_file)
