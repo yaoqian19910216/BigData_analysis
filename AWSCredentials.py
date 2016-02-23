@@ -9,5 +9,5 @@ keyPairFile="~/.ssh/AWS_key" # name of file keeping local key
 key_name="AWS_key" # name of keypair (not name of file where key is stored)
 # Set the security group On the EC2 page (You will need to add IP addresses if
 # you want to connect from a place previously unauthorized.
-security_groups=['nima']
+security_groups=['qianyao']
 ### End of AWS credentials ####
